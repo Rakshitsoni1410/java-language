@@ -1,7 +1,7 @@
 public class r24 {
     public static void main(String[] args) {
         int[][] matrix = new int[2][];
-        matrix[0] = new int[8];// row
+        matrix[0] = new int[3];// row
         matrix[1] = new int[1];// colum
         int value = 0;
         for (int i = 0; i < matrix.length; i++) {

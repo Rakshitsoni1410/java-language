@@ -11,8 +11,11 @@ public class r25 {
     int cols = a.nextInt();
     matrix[i] = new int[cols];
 
-    for (int j = 0; j < cols; j++) {        System.out.print("Enter value for [" + i + "][" + j + "]: ");
-        matrix[i][j] = a.nextInt();
+    for (int j = 0; j < cols; j++) { 
+               System.out.print("Enter value for [" + i + "][" + j + "]: ");
+        
+        
+               matrix[i][j] = a.nextInt();
     }
 }
 
