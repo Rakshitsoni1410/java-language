@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "r24",
+            "request": "launch",
+            "mainClass": "r24",
+            "projectName": "java-language_5eb87ec8"
+        },
+        {
+            "type": "java",
+            "name": "r23",
+            "request": "launch",
+            "mainClass": "r23",
+            "projectName": "java-language_5eb87ec8"
+        },
+        {
+            "type": "java",
             "name": "r21",
             "request": "launch",
             "mainClass": "r21",
