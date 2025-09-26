@@ -19,7 +19,7 @@ class car extends vehicle {
 public class r37 {
     public static void main(String[] args) {
         vehicle c = new car();
-        c.start();  
-        c.show();   
+        c.start();
+        c.show();
     }
 }
