@@ -1,27 +1,18 @@
-interface A {
-    default void show() {
-        System.out.println("A's show");
-    }
-}
+import java.util.*;
 
-interface B {
-    default void show() {
-        System.out.println("B's show");
-    }
-}
-
-// Class trying to inherit both
-public class r45 implements A, B {
-    // Compilation Error unless we override show()
-    
-    public void show() {
-        // Resolving ambiguity
-        A.super.show(); // or B.super.show()
-        System.out.println("r45's own show");
-    }
-
+public class r45 {
     public static void main(String[] args) {
-        r45 obj = new r45();
-        obj.show();
+        ArrayList<String> s = new ArrayList<String>();
+        s.add("hello");
+        s.add("world");
+        s.add("work is done");
+        System.out.println(s);
+        s.set(2, "god");
+        System.out.println(s);
+        s.add("jy");
+        System.out.println(s);
+        for (int i = 0; i < s.size(); i++) {
+            s.get(i);
+        }
     }
 }
